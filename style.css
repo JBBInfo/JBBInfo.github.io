@@ -1,0 +1,93 @@
+
+html {
+	font-family: 'Inconsolata', monospace;
+    font-family: 'Klee One', cursive;
+}
+
+li {
+	list-style-type: square;
+	font-size: 120%;
+}
+
+img {
+	height: 400px;
+	width: 600px;
+	border-radius: 20px;
+}
+.image {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.song {
+	font-size: 140%;
+	text-decoration: underline;
+}
+
+body {
+	background-color: #474646;
+	color: #ffd700;
+}
+
+h1 {
+	text-align: center;
+}
+
+.haupt {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	grid-template-rows: 60% 40%;
+	margin: 20px;
+}
+
+
+.Mini {
+text-align: center;
+margin-right: auto;
+}
+.JBB {
+	text-align: center;
+	margin-left: auto;
+}
+
+.eingabe {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+h3 {
+	font-size: 180%;
+}
+
+#bewertung {
+	font-size: 120%;
+}
+
+#platzierung {
+	font-size: 120%;
+}
+
+@media screen and (max-width: 1300px) {
+	img {
+		height: 300px;
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	img {
+		height: 200px;
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.image {
+	display: none;
+	}
+	.Mini {
+		margin-left: 50px;
+	}
+}
