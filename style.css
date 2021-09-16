@@ -8,6 +8,9 @@ li {
 	list-style-type: square;
 	font-size: 120%;
 }
+li:hover {
+	cursor: pointer;
+}
 
 img {
 	height: 400px;
